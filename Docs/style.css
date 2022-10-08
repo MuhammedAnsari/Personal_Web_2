@@ -1,0 +1,177 @@
+body{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid{
+    
+    background-color: #E1FFEE;
+    padding-top: 5%;
+    
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    color: #7FD4D1;
+}
+
+.pro{
+    font-size: 25px;
+    color: #7AD1EE;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 20%;
+    top: 30px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 10%;
+    padding-top: 20px;
+}
+
+.container{
+    padding-top: 25px;
+}
+
+.ansari{
+    height: 200px;
+}
+
+h2{
+    font-weight: 500;
+    color: #72C1BC;
+}
+
+h3{
+    color: #72C1BC;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.bottom-container-txt{
+    width: 30%;
+    margin-left: 35%;
+    color: #8f8f8f;
+}
+
+.skills{
+    margin-top: 40px;
+}
+
+.frontend{
+    text-align: left;
+    line-height: 2rem;
+    width: 70%;
+    padding-top: 20px;
+}
+
+.img-frontend{
+    height: 150px;
+    float: left;
+}
+
+.javascript{
+    text-align: left;
+    width: 70%;
+    padding-top: 50px;
+    line-height: 2rem;
+    margin-left: 25%;
+}
+
+.img-java{
+    height: 150px;
+    float: right;
+}
+
+.python{
+    text-align: left;
+    line-height: 2rem;
+    width: 70%;
+    padding-top: 50px;
+}
+
+.img-python{
+    height: 150px;
+    float: left;
+}
+.skill-txt{
+    color: #8f8f8f;
+}
+
+.connect_me{
+    background-color: #72C1BC;
+    border-radius: 28px;
+    padding: 10px 20px;
+    border-color: #72C1BC;
+}
+
+.connect_me:hover{
+    background-color: #7FD4D1;
+    border-color: #7FD4D1;
+}
+
+.connect_txt{
+    width: 40%;
+    margin-left: 30%;
+    color: #8f8f8f;
+    
+}
+
+.footer{
+    background-color: #72C1BC;
+    margin-top: 20px;
+    padding: 5px;
+    line-height: 3rem;
+}
+
+.foot-links{
+    padding: 10px;
+    text-decoration: none;
+    color: #033035;
+}
+.foot-links:hover{
+    color: whitesmoke;
+}
+
+.foot-copy{
+    
+    color: whitesmoke;
+}
+
+@media only screen and (max-width: 1028px){
+
+    h1{
+        padding-top: 15px;
+        font-size: 40px;
+    }
+
+    .pro{
+        font-size: 15px;
+    }
+
+    .mountain{
+        width: 50%;
+    }
+
+    .top-cloud{
+        width: 20%;
+        right: 5%;
+        top: 10px;
+    }
+
+    .bottom-cloud{
+        width: 20%;
+    }
+    .bottom-container-txt{
+        width: 70%;
+        margin-left: 15%;
+    }
+    .connect_txt{
+        width: 85%;
+        margin-left: 10%;
+    }
+}
